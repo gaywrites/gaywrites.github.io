@@ -1,11 +1,20 @@
 /* see the invisible */
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font1: Anybody, sans-serif;
+  --color1: lightgreen;
+}
 * {
-    outline: 2px dotted gray;
+    outline: 3px inset rgb(65, 235, 156);
+    border-radius: 5px;
+  
   }
   
   main {
-    background: lightgray;
-    
+    background: rgb(247, 191, 128);
+    font-family: var(--font1);
+        
   /*  roughly 640pixels  */
     width: 40em;
     
@@ -17,4 +26,19 @@
   main img {
     width: 100%;
     display: block;
+    align-items: center;
   }
+
+ body {
+  background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+ }
+
+ span {
+  float: left;
+  font-size: 4em;
+  color: rgb(22, 10, 129);
+  outline: 1px;
+ }
+ head {
+  font-size: 16px;
+ }
