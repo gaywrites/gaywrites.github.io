@@ -1,6 +1,10 @@
-# Andrew Cato
+# Web 2 Starter
 
-Immigrant to the US from Trinidad and Tobago. Moved to the US in 2002. Air Force Veteran. Loves to travel. Watches anime religiously. Beyonce stan. Loves cooking and stretching my culinary skills. My pet spider is really cool.
+## Why?
+* Saves time to setup a new project
+* Starter files for any web project
+* Modern process and tooling
 
-# Major
-I am a Technical Communication Major in my Junior Year.
+## How?
+* Simply click on "use this template" button to create a new repository
+## Citations
